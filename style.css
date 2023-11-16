@@ -1,3 +1,8 @@
+/* переменные */
+:root {
+    --title-fz: 50px;
+}
+
 /* общее */
 * {
     margin: 0;
@@ -20,11 +25,16 @@
     height: 100%;
 }
 
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 10px auto;
+}
 
 /* Фиолетовый блок */
 .purple {
-    background-color: #87519D;
-    height: 60vh;
+    background-color: #87519d;
     color: white;
 }
 
@@ -44,7 +54,7 @@
 }
 
 .purple__header nav a:hover {
-    background-color: #673A7B;
+    background-color: #673a7b;
 }
 
 .purple__header-logo {
@@ -53,18 +63,60 @@
 }
 
 .purple__title {
-    margin-top: auto;
-    font-size: 50px;
+    margin-top: 100px;
+    font-size: var(--title-fz);
     text-align: center;
 }
 
 .purple__btn {
-    background-color: #EB7D4A;
-    margin: 20px auto auto;
+    background-color: #eb7d4a;
+    margin: 20px auto 150px;
     border: none;
     padding: 15px 50px;
     border-radius: 5px;
     cursor: pointer;
 }
 
+/* Зелёный блок */
+.green {
+    background-color: #18c1a4;
+    color: white;
+    padding: 80px 0;
+    box-sizing: border-box;
+}
 
+.green__title {
+    text-align: center;
+    font-size: var(--title-fz);
+}
+
+.green__description {
+    text-align: center;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.green__providers {
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.green__providers-item {
+    width: 20%;
+}
+
+.green__providers-item img {
+    width: 50%;
+    margin: 0 auto 40px;
+}
+
+.green__providers-item h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.green__providers-item p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* серый блок */
