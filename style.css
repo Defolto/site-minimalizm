@@ -1,0 +1,70 @@
+/* общее */
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.minWidth {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+/* Фиолетовый блок */
+.purple {
+    background-color: #87519D;
+    height: 60vh;
+    color: white;
+}
+
+.purple__header {
+    padding: 40px 0;
+}
+
+.purple__header nav {
+    margin-left: auto;
+}
+
+.purple__header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: auto 0;
+}
+
+.purple__header nav a:hover {
+    background-color: #673A7B;
+}
+
+.purple__header-logo {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.purple__title {
+    margin-top: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.purple__btn {
+    background-color: #EB7D4A;
+    margin: 20px auto auto;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
