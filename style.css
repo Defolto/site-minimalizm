@@ -1,6 +1,7 @@
 /* переменные */
 :root {
     --title-fz: 50px;
+    --section-padding: 80px;
 }
 
 /* общее */
@@ -30,6 +31,16 @@
     height: 2px;
     background-color: rgba(0, 0, 0, 0.4);
     margin: 10px auto;
+}
+
+.titleSection {
+    text-align: center;
+    font-size: var(--title-fz);
+}
+
+.descriptionSection {
+    text-align: center;
+    font-size: 18px;
 }
 
 /* Фиолетовый блок */
@@ -81,18 +92,11 @@
 .green {
     background-color: #18c1a4;
     color: white;
-    padding: 80px 0;
+    padding: var(--section-padding) 0;
     box-sizing: border-box;
 }
 
-.green__title {
-    text-align: center;
-    font-size: var(--title-fz);
-}
-
 .green__description {
-    text-align: center;
-    font-size: 18px;
     color: whitesmoke;
 }
 
@@ -120,3 +124,56 @@
 }
 
 /* серый блок */
+.grey {
+    padding: var(--section-padding) 0;
+    background-color: #E7F2F8;
+}
+
+.grey__peoples {
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.grey__circle {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #868686;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.grey__socials {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grey__social {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BCD0DB;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.grey__peoples-item {
+    width: 20%;
+    text-align: center;
+}
+
+.grey__social img {
+    width: 60%;
+}
+
+.grey__name {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.grey__status {
+    color: #8BB5C1;
+    margin: 5px 0 20px;
+}
+
